@@ -1,0 +1,15 @@
+{"Protectora": [
+        {"Nombre": "Ares", "Edad": "1 año y 5 meses", "Raza": "Mestizo", "Tipo": "perro", "Descripcion": "hola", "Sexo": "Macho"},
+        {"Nombre": "Coqui", "Edad": "8 años", "Raza": "Conejo enano", "Tipo": "conejo", "Descripcion": "hola", "Sexo": "Macho"},
+        {"Nombre": "Kira", "Edad": "7 años", "Raza": "Pastora Alemana", "Tipo": "perro", "Descripcion": "hola", "Sexo": "Hembra"},
+        {"Nombre": "Pepsi", "Edad": "3 años", "Raza": "Border Collie", "Tipo": "perro", "Descripcion": "hola", "Sexo": "Hembra"},
+        {"Nombre": "Dino", "Edad": "6 meses", "Raza": "Roborowski", "Tipo": "hamster", "Descripcion": "hola", "Sexo": "Macho"},
+        {"Nombre": "Beethoven", "Edad": "14 años", "Raza": " Mestizo", "Tipo": "perro", "Descripcion": "hola", "Sexo": "Macho"},
+        {"Nombre": "Tron", "Edad": "5 meses", "Raza": "Kitty", "Tipo": "gato", "Descripcion": "hola", "Sexo": "Macho"},
+        {"Nombre": "Calcetín", "Edad": "1 año", "Raza": "Ruso ", "Tipo": "hamster", "Descripcion": "hola", "Sexo": "Macho"},
+        {"Nombre": "Yago", "Edad": "3 meses", "Raza": "Dachshund", "Tipo": "perro", "Descripcion": "hola", "Sexo": "Macho"},
+        {"Nombre": "Mouse y Galleta", "Edad": "5 meses ambos", "Raza": "Curl Americano", "Tipo": "gato", "Descripcion": "hola", "Sexo": "Hembras"},
+        {"Nombre": "Noah", "Edad": "1 año", "Raza": "Husky", "Tipo": "perro", "Descripcion": "hola", "Sexo": "Hembra"},
+        {"Nombre": "Limón", "Edad": "3 años", "Raza": "Siamés", "Tipo": "gato", "Descripcion": "hola", "Sexo": "Macho"}
+    ]   
+}

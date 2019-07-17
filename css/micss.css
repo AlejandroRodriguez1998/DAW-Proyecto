@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* Autor: Alejandro Paniagua Rodriguez
+ * Fecha: 02/05/2019
+ * Módulo: Proyecto
+ */
+
+@media (min-width: 576px) {  
+    .mediaQuery {
+        width: 50%;
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .mediaQuery {
+        width: 75%;
+    }
+}
+
+body{
+    padding-top: 5px;
+}
+
+header {
+    padding-bottom: 6px;
+}
+
+header, footer, body {
+    background-color: #1C2833;
+}
+
+main {
+    background-color: white;
+    padding-bottom: 20px;
+    min-height: 318px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+#nombrePag {
+    display: inline-block;
+    color: white;
+}
+
+.position-absolute {
+    right: 15px;    
+}
+
+.botonMismoColor{
+    background-color: #1C2833;
+    border-color: #1C2833;
+}
+
+.btn-outline-mismoColor{
+    background-color: inherit;
+    color: black;
+    border-color: #1C2833;
+}
+
+.btn-outline-mismoColor:hover{
+    color: white;
+    background-color: #1C2833;
+    border-color: #1C2833;
+}
+
+.btn-outline-mismoColor.active{
+    color: white;
+    background-color: #1C2833;
+    border-color: #1C2833;
+}
+
+.iniciarSesion {
+    padding: 2px;
+    padding-left: 10px;
+    width: 210px;
+}
+
+.imgAdmin {
+    width: 100px;
+    margin-top: 1rem!important;
+}
+
+.divImagen img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 4px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+.botonModificar {
+    background:url("../img/Modificar.png") no-repeat;
+}
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+.img-zoom {
+    cursor: zoom-in;
+}
+
+.selectGeneral {
+    max-height: 197px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+::-webkit-scrollbar-track{
+    background: inherit;
+}
+
+#myTable input{
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+    border-radius: 0;
+}
+
+#myTable *:focus {
+    outline: -webkit-focus-ring-color none;
+    border: none !important;
+    background: none !important;
+    border-bottom: solid 3px !important;
+    box-shadow: 0 0 0 0;
+}
+
+#listaAnimales select {
+    /* width: 150px; */
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaAnimales input[type=number]{
+    width: 50px;
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaAnimales input[type=text] {
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaAnimales *:focus {
+    outline: -webkit-focus-ring-color none;
+    border: none !important;
+    background: none !important;
+    border-bottom: solid 3px !important;
+}
+
+#listaClientes input[type=text] {
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaClientes *:focus {
+    outline: -webkit-focus-ring-color none;
+    border: none !important;
+    background: none !important;
+    border-bottom: solid 3px !important;
+}
+
+#listaVeterinarios input[type=text] {
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaVeterinarios *:focus {
+    outline: -webkit-focus-ring-color none;
+    border: none !important;
+    background: none !important;
+    border-bottom: solid 3px !important;
+}
+
+#listaCitas input[type=text] {
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaCitas input[type=date] {
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaCitas select {
+    /* width: 150px; */
+    border: none;
+    background: none;
+    border-bottom: solid 1px;
+}
+
+#listaCitas *:focus {
+    outline: -webkit-focus-ring-color none;
+    border: none !important;
+    background: none !important;
+    border-bottom: solid 3px !important;
+}
+
+#share span {
+    position: absolute;
+    top: 7px;
+    left: 16px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+
+#share span.fb-inner {
+    background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') -41px 0;
+    width: 40px;
+    height: 40px;
+}
+
+#share span.tw-inner {
+    background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') 0 0;
+    width: 40px;
+    height: 40px;
+}
+  
+.social-share {
+    width: 72px;
+    height: 54px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+}
+  
+.social-share.fb {
+    background: -webkit-gradient(radial, 37 56, 25, 36 190, 144, from(rgba(51, 88, 144, 0.99)), to(rgba(51, 88, 144, 0.99))), -webkit-gradient(radial, -10 72, 10, 310 -72, 72, from(rgba(54, 93, 152, 0.99)), to(rgba(54, 93, 152, 0.99))), -webkit-gradient(radial, 72 72, 20, -275 -72, 72, from(rgba(54, 93, 152, 0.99)), to(rgba(54, 93, 152, 0.99))) rgba(61, 105, 171, 0.99) !important;
+    background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') 0 -47px;
+}
+
+.social-share.tw {
+    background: -webkit-gradient(radial, 37 56, 25, 36 190, 144, from(rgba(56, 168, 186, 0.99)), to(rgba(56, 168, 186, 0.99))), -webkit-gradient(radial, -10 72, 10, 310 -72, 72, from(rgba(58, 175, 194, 0.99)), to(rgba(58, 175, 194, 0.99))), -webkit-gradient(radial, 72 72, 20, -275 -72, 72, from(rgba(58, 175, 194, 0.99)), to(rgba(58, 175, 194, 0.99))) rgba(76, 184, 201, 0.99) !important;
+    background: no-repeat url('https://vsxed.github.com/Social-Slides/sprite.png') -73px -47px;
+}
+
+.social-share:hover > span {
+    top: -29px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  
+.social-share:hover > .cta {
+    bottom: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  
+.cta {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 0;
+    text-align: center;
+    width: 72px;
+    position: absolute;
+    border-radius: 0 0 6px 6px;
+    bottom: -60px;
+    display: block;
+    box-shadow: inset 0 1px 0 0 #ffffff, 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    background-color: #e8e8e8;
+    background-image: -webkit-linear-gradient(top left, #e8e8e8, #ffffff);
+    background-image: -moz-linear-gradient(top left, #e8e8e8, #ffffff);
+    background-image: -ms-linear-gradient(top left, #e8e8e8, #ffffff);
+    background-image: -o-linear-gradient(top left, #e8e8e8, #ffffff);
+    background-image: linear-gradient(top left, #e8e8e8, #ffffff);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+  
+.cta.tw {
+    color: rgba(58, 175, 194, 0.99);
+}
+
+.cta.fb {
+    color: rgba(54, 93, 152, 0.99);
+}
+  
+  

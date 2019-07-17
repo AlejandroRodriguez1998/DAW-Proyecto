@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="Veterinaria Pandawa">
+    <meta name="description" content="La pagina trata de una veterinaria creada para un proyecto">
+    <title>Veterinaria Pandawa</title>
+
+    <link rel="icon" href="img/icono.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Personalizado -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="stylesheet" href="css/micss.css">
+
+</head>
+<body>
+    <span class="d-none" id="OpcionSalir">normal-index.html</span>
+    <header class="container-fluid">
+        <div class="container d-block d-lg-flex justify-content-center">
+            <div class="text-center">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" width="100" height="100"></a>
+            </div>
+            <div class="text-center">
+                <p id="nombrePag" class="h1 font-weight-light mt-0s mt-lg-5">Veterinaria Pandawa</p>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container position-relative">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuContenido"
+            aria-controls="menuContenido" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="position-absolute">
+
+        </div>
+        <div class="collapse navbar-collapse" id="menuContenido">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="protectora.html">Protectora</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cita.php">Citas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion.html">Información</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <div id="carouselExampleIndicators" class="carousel slide pt-3" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/4.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/5.jpg" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/6.jpg" alt="Sixth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="pt-3">
+            <h2 class="text-center">Te damos la bienvenida</h2>
+            <div class="w-75 m-auto text-justify">
+                <p>¿Quiénes somos? Pandawa es una clinica veterinaria en la que atendemos a tus mascotas las 24 horas y 365 días del año, ya sea un perro, gato, hámster, aves, etc.
+                Sabemos que tus mascotas son muy importantes para ti, por lo que para Pandawa, su salud y cuidado es nuestra prioridad.</p>
+                <p>Nuestra clínica cuenta con expertos altamente cualificados que cuentan con amplia experiencia en el sector, donde la profesionalidad es nuestro signo de distinción.
+                En Pandawa, colaboramos con una <a href="protectora.html">protectora</a> donde ofrecemos asistencia para animales abandonados y maltratados.</p> 
+                <p class="text-center">Para cualquier duda al respecto, puedes dirigirte a nuestro apartado de <a href="informacion.html">'Información'</a>.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid pt-3">
+        <div class="container d-flex justify-content-between aling-items-center pb-3" id="share">
+            <div class="w-50 m-auto text-center">
+                <p class="m-0 text-white">Recuerda proteger, mimar y nunca abandonar</p>
+            </div>
+            <div class="w-50 m-auto text-center">
+                <div class="social-share fb">
+                    <span class="fb-inner"></span>
+                    <a class="cta fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwwwalejandrocom.hostingerapp.com%2F&amp;src=sdkpreparse">Compartir</a>
+                </div>
+                <div class="social-share tw">
+                    <span class="tw-inner"></span>
+                    <a class="cta tw" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%2Fproyecto%2F&ref_src=twsrc%5Etfw&text=Me%20encanta%20la%20veterinaria%20pandawa&tw_p=tweetbutton&url=http%3A%2F%2Fwwwalejandrocom.hostingerapp.com%2F">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js"></script>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    
+    <!-- Personalizado -->
+    <script src="js/inicio.js"></script>
+    <script src="js/cookie.js"></script>
+</body>
+</html>

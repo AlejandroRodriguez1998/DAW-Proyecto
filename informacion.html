@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="title" content="Veterinaria Pandawa">
+    <meta name="description" content="La pagina trata de una veterinaria creada para un proyecto">
+    <title>Veterinaria Pandawa</title>
+
+    <link rel="icon" href="img/icono.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Personalizado -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="stylesheet" href="css/micss.css">
+</head>
+<body>
+    <span class="d-none" id="OpcionSalir">normal-informacion.html</span>
+    <header class="container-fluid">
+        <div class="container d-block d-lg-flex justify-content-center">
+            <div class="text-center">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" width="100" height="100"></a>
+            </div>
+            <div class="text-center">
+                <p id="nombrePag" class="h1 font-weight-light mt-0s mt-lg-5">Veterinaria Pandawa</p>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container position-relative">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuContenido"
+            aria-controls="menuContenido" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menu" class="position-absolute">
+
+        </div>
+        <div class="collapse navbar-collapse" id="menuContenido">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="protectora.html">Protectora</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cita.php">Citas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="informacion.html">Información</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <h3 class="text-center pt-2">Información</h3>
+        <div class="row">
+            <div class="col-12 col-lg-6 text-center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.060205494033!2d-3.9357827452287797!3d38.991122288591264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6bc36eae5e7949%3A0xef696cbd868153b1!2sHospital+del+Carmen!5e0!3m2!1ses!2ses!4v1559332132306!5m2!1ses!2ses" 
+                    width="500" 
+                    height="300" 
+                    style="border:0" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 align-self-center">
+                
+                <p><i class="fa fa-phone fa-fw" aria-hidden="true"></i>&nbsp; 926222258</p>
+                <p><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>&nbsp; Calle Carmen, 7</p>
+                <p><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>&nbsp; 09:00 h - 20:00 h</p>
+                <p><i class="fa fa-ambulance fa-fw" aria-hidden="true"></i>&nbsp; 24 horas emergencias</p>
+                <p><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>&nbsp; alec_cr31@hotmail.com</p>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid pt-3">
+        <div class="container d-flex justify-content-between aling-items-center pb-3" id="share">
+            <div class="w-50 m-auto text-center">
+                <p class="m-0 text-white">Recuerda proteger, mimar y nunca abandonar</p>
+            </div>
+            <div class="w-50 m-auto text-center">
+                <div class="social-share fb">
+                    <span class="fb-inner"></span>
+                    <a class="cta fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwwwalejandrocom.hostingerapp.com%2F&amp;src=sdkpreparse">Compartir</a>
+                </div>
+                <div class="social-share tw">
+                    <span class="tw-inner"></span>
+                    <a class="cta tw" href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Flocalhost%2Fproyecto%2F&ref_src=twsrc%5Etfw&text=Me%20encanta%20la%20veterinaria%20pandawa&tw_p=tweetbutton&url=http%3A%2F%2Fwwwalejandrocom.hostingerapp.com%2F">Tweet</a>
+                    <script async src="https://platform.twitter.com/widgets.js"></script>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Personalizado -->
+    <script src="js/inicio.js"></script>
+    <script src="js/cookie.js"></script>
+</body>
+</html>
