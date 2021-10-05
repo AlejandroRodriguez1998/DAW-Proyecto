@@ -18,7 +18,5 @@ página, investigando las demás paginas de las veterinarias he observado que no
 pedir algo tan simple como una cita con el medico de tu animal y creo que es algo
 necesario.
 
-https://wwwalejandrocom.000webhostapp.com
-
  # Version 1.0.0
    - Subida de todos los ficheros funcionales
